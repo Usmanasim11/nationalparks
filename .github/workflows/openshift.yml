@@ -54,7 +54,7 @@ jobs:
         username: ${{ env.REGISTRY_USER }}
         password: ${{ env.REGISTRY_PASSWORD }}
 
-    # The path the image was pushed to is now stored in ${{ steps.push-to-registry.outputs.registry-path }}
+    # #The path the image was pushed to is now stored in ${{ steps.push-to-registry.outputs.registry-path }}
 
     # https://github.com/redhat-actions/oc-login#readme
     - name: Log in to OpenShift 
